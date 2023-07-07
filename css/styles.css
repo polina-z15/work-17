@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details {
+  margin-top: 9px;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #1c6f3a;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+  color: #048138;
+}
+
+h3 {
+    font-weight: 700;
+    color: grey;
+}
+
+.card:hover{
+background-color: #f3f1f1;
+color: #965b5b;
+}
